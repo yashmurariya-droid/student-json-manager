@@ -1,3 +1,4 @@
+ 
 \# Student JSON Manager
 
 
@@ -97,4 +98,8 @@ Yash — First-year BTech AI student learning Python and building automation pro
 
 
 
+
+
+# student-json-manager
+A Python application for managing student records using JSON
 
