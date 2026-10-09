@@ -65,5 +65,11 @@ try:
         json.dump(report, file, indent=4)
 
     print("\nSummary report saved to todo_report.json")
+except requests.Timeout:
+    print("The API took too long to respond.")
+
+except requests.HTTPError as e:
+    print("HTTP error occurred:", e)
+
 except requests.RequestException:
-    print("Could not connect to the API.")
+    print("A network or API request error occurred.")
