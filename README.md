@@ -1,105 +1,29 @@
- 
-\# Student JSON Manager
+## API Todo Analytics Tool
 
+A beginner Python project that retrieves todo records from a REST API, filters completed tasks, analyzes the results, and saves reports as JSON files.
 
+### Features
 
-A beginner-friendly Python project for managing student records using JSON file storage.
+* Fetches todo records using the `requests` library
+* Filters completed tasks using Python loops and conditions
+* Saves completed records to `completed_todos.json`
+* Loads and verifies saved JSON data
+* Counts completed tasks for each user
+* Generates a summary report in `todo_report.json`
+* Handles API request errors
 
+### Technologies
 
+* Python
+* Requests
+* REST APIs and HTTP
+* JSON
+* Lists, dictionaries, loops, and exception handling
 
-\## Features
+### How to Run
 
+1. Install Requests: `python -m pip install requests`
+2. Run: `python api_practice.py`
+3. The program generates `completed_todos.json` and `todo_report.json`.
 
-
-\* Add new student records
-
-\* Search for students by name
-
-\* Update student marks
-
-\* Delete student records with confirmation
-
-\* Display all students and calculate average marks
-
-\* Prevent duplicate student names, ignoring capitalization
-
-\* Validate marks and handle common file errors
-
-\* Store student data in a JSON file
-
-
-
-\## Technologies Used
-
-
-
-\* Python
-
-\* JSON
-
-\* File handling
-
-\* Exception handling
-
-\* Lists, dictionaries, loops, and functions
-
-
-
-\## How to Run
-
-
-
-1\. Install Python 3.
-
-
-
-2\. Download or clone this project.
-
-
-
-3\. Open a terminal in the project folder.
-
-
-
-4\. Run:
-
-
-
-&#x20;  `python json\_practice.py`
-
-
-
-5\. Follow the menu instructions.
-
-
-## Project Files
-
-* `json_practice.py` — main Student JSON Manager application
-* `clean_duplicates.py` — detects duplicate student names
-* `save_cleaned.py` — creates a cleaned student data file
-* `.gitignore` — prevents local data files from being committed
-
-**Note:** Student data files and backups are kept locally and excluded from version control.
-
-
-\## What I Learned
-
-
-
-I practiced Python functions, JSON data handling, input validation, exception handling, searching records, updating data, and detecting duplicate names.
-
-
-
-\## Author
-
-
-
-Yash — First-year BTech AI student learning Python and building automation projects.
-
-
-
-
-
-# student-json-manager
-A Python application for managing student records using JSON
-
+Note: The JSON files are generated locally when the program runs.
